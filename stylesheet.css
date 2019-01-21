@@ -1,0 +1,44 @@
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+ }
+ 
+a, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+}
+
+#name {
+  color: white;
+  font-family: Verdana;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-left: 40px;
+}
+
+.navigation a {
+  float: right;
+  font-family: Verdana;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigation a:hover {
+  color: grey;
+}
+
+.contact-info {
+  background-color: white;
+  height: 500px;
+  width: 300px;
+  margin-left: 75px;
+  
+}
