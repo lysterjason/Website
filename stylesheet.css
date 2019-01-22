@@ -1,44 +1,59 @@
-html { 
+html {
   background: url(background.jpg) no-repeat center center fixed; 
   background-size: cover;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Lora', serif;
  }
  
 a, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Archivo', sans-serif;
-  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+ }
+
+.background {
+  width: 100%;
+  height: 100%;
+  background: rgba(108, 122, 137, 0.7);
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  position: fixed;
 }
 
 #name {
-  color: white;
-  font-family: Verdana;
-  font-size: 50px;
-  letter-spacing: 10px;
-  margin-left: 40px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 40px;
+  padding-top: 175px;
 }
 
-.navigation a {
-  float: right;
-  font-family: Verdana;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+hr {
+  width: 350px;
 }
 
-.navigation a:hover {
-  color: grey;
+.nav{
+  border: 1px solid white;
+  border-width: 1px 0;
+
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+.nav li{
+  display:inline;
+}
+.nav a{
+  display: inline-block;
+  padding: 15px;
+  letter-spacing: 2px;
 }
 
-.contact-info {
-  background-color: white;
-  height: 500px;
-  width: 300px;
-  margin-left: 75px;
-  
+.nav a:hover {
+  font-weight: bold;
 }
