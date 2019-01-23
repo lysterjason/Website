@@ -18,14 +18,14 @@ a, h1, h2, h3, h4, h5, h6 {
 .background {
   width: 100%;
   height: 100%;
-  background: rgba(108, 122, 137, 0.7);
+  background: rgba(108, 122, 137, 0.75);
   top: 0px;
   left: 0px;
   margin: 0px;
   position: fixed;
 }
 
-#name {
+.title {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 40px;
@@ -39,7 +39,6 @@ hr {
 .nav{
   border: 1px solid white;
   border-width: 1px 0;
-
   list-style:none;
   margin:0;
   padding:0;
@@ -48,6 +47,7 @@ hr {
 .nav li{
   display:inline;
 }
+
 .nav a{
   display: inline-block;
   padding: 15px;
@@ -55,5 +55,29 @@ hr {
 }
 
 .nav a:hover {
+  font-weight: bold;
+}
+
+.personal-pic {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+.contact-table {
+  text-align: left;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+th, td {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: white;
+  padding: 15px;
+}
+
+.hoverable:hover a{
   font-weight: bold;
 }
