@@ -7,7 +7,7 @@ body {
   font-family: 'Lora', serif;
  }
  
-a, h1, h2, h3, h4, h5, h6 {
+a, h1, h2, h3, h4, h5, h6, p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: white;
@@ -81,4 +81,49 @@ th, td {
 
 .hoverable:hover a{
   font-weight: bold;
+}
+
+.about-me {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.resume-format {
+  text-align: left;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.column1 {
+  float: left;
+  width: 40%;
+}
+
+.col-format {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume-title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+.resume-header {
+  color: #F0DCCA;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.resume-desc {
+  text-align: left;
+  letter-spacing: 1px;
 }
