@@ -29,7 +29,7 @@ a, h1, h2, h3, h4, h5, h6, p {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 40px;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 hr {
@@ -43,10 +43,11 @@ hr {
   margin: 0;
   padding: 0;
   text-align: center;
-  margin-top: 125px;
+  margin-top: 20px;
 }
+
 .nav li{
-  display:inline;
+  display: inline;
 }
 
 .nav a{
@@ -89,10 +90,10 @@ th, td {
   width: 500px;
 }
 
-.resume-format {
-  text-align: left;
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 .column {
   float: left;
@@ -126,4 +127,9 @@ th, td {
 .resume-desc {
   text-align: left;
   letter-spacing: 1px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 20px;
 }
